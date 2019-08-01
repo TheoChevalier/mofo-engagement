@@ -1,0 +1,27 @@
+basepath = "."
+
+locales = [
+    "de",
+    "es",
+    "fr",
+    "pl",
+    "pt-BR",
+]
+
+
+[[paths]]
+    reference = "en-US/emails/2019/privacy/fb_2fa_win.ftl"
+    l10n = "{locale}/emails/2019/privacy/fb_2fa_win.ftl"
+    locales = [
+        "de",
+        "fr",
+        "pl",
+    ]
+
+[[paths]]
+    reference = "en-US/emails/2019/privacy/apple_privacy_kicker.ftl"
+    l10n = "{locale}/emails/2019/privacy/apple_privacy_kicker.ftl"
+    locales = [
+        "de",
+        "fr",
+    ]
